@@ -1,3 +1,8 @@
+Here is a adjusting for the SDOS-PROJECT-FINALE1.3.5.GRAY.c code so that it works for RGB images (color images).
+##### The median_filter() is modified to apply the median filter separately to each color channel (Red, Green, and Blue). 
+Since the RGB image is stored in a single buffer with the format [R, G, B, R, G, B, ...],it is needed to handle each channel independently by 3.
+
+
     #include <sys\exception.h>
     #include <cdefBF533.h>
     #include "sysreg.h"
@@ -120,8 +125,4 @@
         }
     }
 
-## Here is a adjusting for the SDOS-PROJECT-FINALE1.3.5.GRAY.c code so that it works for RGB images (color images).
-## The median_filter() is modified to apply the median filter separately to each color channel (Red, Green, and Blue). 
-### Since the RGB image is stored in a single buffer with the format [R, G, B, R, G, B, ...],it is needed to handle each channel independently by 3.
 
-                                 
