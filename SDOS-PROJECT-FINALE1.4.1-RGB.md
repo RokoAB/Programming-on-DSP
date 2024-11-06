@@ -121,5 +121,6 @@ void Init_SDRAM(void)
 }
 
 
+To adjust the provided code so that it works for RGB images, you need to modify the median_filter() function to apply the median filter separately to each color channel (Red, Green, and Blue). Since the RGB image is stored in a single buffer with the format [R, G, B, R, G, B, ...], you'll need to handle each channel independently.
 
                                  
