@@ -1,6 +1,6 @@
 
 
-## Implementation of a median filter kernel in VisualDSP++ environment for a ADSP-BF533 Blackfin processor (can be easily adjusted for other).
+### Implementation of a median filter kernel in VisualDSP++ environment for a ADSP-BF533 Blackfin processor (can be easily adjusted for other).
 ----
 #### The program is written in C.
 
